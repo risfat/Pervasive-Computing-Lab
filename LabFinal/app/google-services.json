@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "648547694344",
+    "project_id": "lab-final-65709",
+    "storage_bucket": "lab-final-65709.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648547694344:android:a543e92c32e55c75721ebd",
+        "android_client_info": {
+          "package_name": "com.risfat.labfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648547694344-mro2jvliq2uegfq6notp98rbu5afu4qr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtcEgOZgIKAJQxUCCrCJGDIc_tZCMkap4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648547694344-mro2jvliq2uegfq6notp98rbu5afu4qr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

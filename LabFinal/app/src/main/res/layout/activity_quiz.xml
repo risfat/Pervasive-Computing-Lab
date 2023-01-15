@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuizActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capital of BD ?"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        />
+
+    <RadioGroup
+        android:layout_marginTop="10dp"
+        android:id="@+id/radioGroupQuizID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:id="@+id/radioBtnDhaka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dhaka"
+            android:layout_margin="5dp"
+            android:onClick="quizCheck"/>
+
+        <RadioButton
+            android:id="@+id/radioBtnGazipur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gazipur"
+            android:layout_margin="5dp"
+            android:onClick="quizCheck"/>
+
+        <RadioButton
+            android:id="@+id/radioBtnRajshahi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rajshahi"
+            android:layout_margin="5dp"
+            android:onClick="quizCheck"/>
+
+
+
+    </RadioGroup>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Save"
+    android:layout_gravity="end"
+    android:layout_margin="20dp"
+    android:onClick="saveDB"/>
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="What is the recent $ price?"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+<RadioGroup
+    android:layout_marginTop="40dp"
+    android:id="@+id/radioGroupID"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/radioBtn1ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="75Tk"
+        android:textSize="35dp" />
+    <RadioButton
+        android:id="@+id/radioBtn2ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="65Tk"
+        android:textSize="35dp" />
+    <RadioButton
+        android:id="@+id/radioBtn3ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="85Tk"
+        android:textSize="35dp" />
+
+    <RadioButton
+        android:id="@+id/radioBtn4ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="91Tk"
+        android:textSize="35dp" />
+</RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="nextFunction"
+        android:text="next"
+        android:textSize="40dp" />
+
+</LinearLayout>

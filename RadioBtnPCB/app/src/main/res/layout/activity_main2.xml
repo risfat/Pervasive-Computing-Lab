@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="What is the capital of Bangladesh?"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_marginTop="40dp"
+        android:id="@+id/q2radioGroupID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/q2radioBtn1ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dhaka"
+            android:textSize="35dp" />
+        <RadioButton
+            android:id="@+id/q2radioBtn2ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rajshashi"
+            android:textSize="35dp" />
+        <RadioButton
+            android:id="@+id/q2radioBtn3ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gazipur"
+            android:textSize="35dp" />
+
+        <RadioButton
+            android:id="@+id/q2radioBtn4ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Khulna"
+            android:textSize="35dp" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="submitFunction"
+        android:text="submit"
+        android:textSize="40dp" />
+</LinearLayout>
